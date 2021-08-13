@@ -31,7 +31,16 @@ export const data = {
     }
   ],
   "filePathRelative": "README.md",
-  "git": {}
+  "git": {
+    "updatedTime": 1628873717000,
+    "contributors": [
+      {
+        "name": "Leonard Cremer",
+        "email": "leonard@trooptravel.com",
+        "commits": 1
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {

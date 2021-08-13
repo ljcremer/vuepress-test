@@ -4,11 +4,11 @@ import { navbar, sidebar } from "./configs";
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: "en-US",
-  title: "Troop",
+  title: "",
   description: "Troop documentation",
 
   themeConfig: {
-    logo: "https://vuejs.org/images/logo.png",
+    logo: "./images/tesla.svg",
 
     locales: {
       /**

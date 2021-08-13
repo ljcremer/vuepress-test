@@ -1,7 +1,7 @@
 export const siteData = {
   "base": "/",
   "lang": "en-US",
-  "title": "Troop",
+  "title": "",
   "description": "Troop documentation",
   "head": [],
   "locales": {}
