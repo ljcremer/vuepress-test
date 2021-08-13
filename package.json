@@ -12,5 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.23"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.4.0",
+    "@vue/component-compiler-utils": "^3.2.2",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.23",
+    "algoliasearch": "^4.10.3"
   }
 }

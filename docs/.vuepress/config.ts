@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import { navbar, sidebar } from "./configs";
+const { path } = require("@vuepress/utils");
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: "en-US",
@@ -29,4 +30,21 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     },
   },
+  plugins: [
+    [
+      "@vuepress/register-components",
+      {
+        components: {
+          TroopAlgolia: path.resolve(
+            __dirname,
+            "./components/TroopAlgolia.vue"
+          ),
+        },
+      },
+    ],
+  ],
 });
+
+
+
+
