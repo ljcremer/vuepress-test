@@ -36,7 +36,13 @@
         @keyup.stop.prevent.up="keyboardTraversal($event)"
         @keydown.esc="reset(false)"
         @keyup.enter="
-          $router.push('/' + activeHit.url.split('/').splice(3, 4).join('/')),
+          $router.push(
+            '/' +
+              activeHit.url
+                .split('/')
+                .splice(3, 4)
+                .join('/')
+          ),
             reset(false)
         "
         :initialFocus="searchBarRef"
@@ -148,10 +154,20 @@
                     :class="item.active ? 'bg-blue-200' : 'bg-white'"
                     @keypress.enter="
                       $router.push(
-                        '/' + item.url.split('/').splice(3, 4).join('/')
+                        '/' +
+                          item.url
+                            .split('/')
+                            .splice(3, 4)
+                            .join('/')
                       )
                     "
-                    :to="'/' + item.url.split('/').splice(3, 4).join('/')"
+                    :to="
+                      '/' +
+                        item.url
+                          .split('/')
+                          .splice(3, 4)
+                          .join('/')
+                    "
                     @click="setShowSearchModal(false)"
                     @mouseover="activate(item.objectID)"
                     @focus="activate(item.objectID)"
@@ -195,6 +211,7 @@
                     role="presentation"
                     class="
                       block
+                      
                       w-8
                       h-8
                       py-2

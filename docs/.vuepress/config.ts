@@ -43,6 +43,21 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     ],
   ],
+  bundler: '@vuepress/vite',
+  bundlerConfig: {
+    viteOptions: {
+      css: {
+        postcss: {
+            plugins: [
+              require('tailwindcss'),
+              require('autoprefixer')
+            ]
+        }
+      },
+    }
+
+  },
+  
 });
 
 

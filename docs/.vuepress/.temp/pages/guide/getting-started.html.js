@@ -12,12 +12,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "guide/getting-started.md",
   "git": {
-    "updatedTime": 1628873717000,
+    "updatedTime": 1628878020000,
     "contributors": [
       {
         "name": "Leonard Cremer",
         "email": "leonard@trooptravel.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }
