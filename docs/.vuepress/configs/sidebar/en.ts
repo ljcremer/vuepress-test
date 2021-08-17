@@ -1,11 +1,18 @@
 import type { SidebarConfig } from "@vuepress/theme-default";
 
 export const en: SidebarConfig = {
-  "/guide/": [
+  "/tesla/": [
     {
       isGroup: true,
-      text: "Guide",
-      children: ["/guide/README.md", "/guide/getting-started.md"],
+      text: "Texas",
+      children: [
+        "/tesla/procedure.md",
+         "/tesla/access.md", 
+         "/tesla/parking.md", 
+         "/tesla/visitor.md", 
+         "/tesla/contacts.md", 
+         "/tesla/ecomply.md", 
+         "/tesla/questions.md"]
     },
   ],
 };

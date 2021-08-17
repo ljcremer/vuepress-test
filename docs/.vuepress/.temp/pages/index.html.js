@@ -9,27 +9,7 @@ export const data = {
     "description": "Description 1"
   },
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Hello VuePress3",
-      "slug": "hello-vuepress3",
-      "children": [
-        {
-          "level": 3,
-          "title": "Hello VuePress3",
-          "slug": "hello-vuepress3-1",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "Hello VuePress4",
-          "slug": "hello-vuepress4",
-          "children": []
-        }
-      ]
-    }
-  ],
+  "headers": [],
   "filePathRelative": "README.md",
   "git": {
     "updatedTime": 1628873717000,
